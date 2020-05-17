@@ -197,7 +197,7 @@
 	button_largeBorder_green_pressed:{
 		uri: "[config.ui.skin]common/btn_greenSecondLargeBorder_pressed.png"
 	},
-	// L'état selected est grisé, volontairement, pour le bouton pret de banner
+	// L'ï¿½tat selected est grisï¿½, volontairement, pour le bouton pret de banner
 	button_largeBorder_green_selected:{
 		uri: "[config.ui.skin]common/btn_greenSecondLargeBorder_disabled.png"
 	},
@@ -241,7 +241,22 @@
 		scale9Grid:{},
 		alpha:1
 	},
-	
+
+	// Help button
+	button_help_normal:{
+		uri: "[config.ui.skin]texture/btnIcon/btnIcon_question.png"
+	},
+    button_help_over:{
+        uri: "[config.ui.skin]texture/subhint_over.png"
+    },
+	button_help_selected:{
+		uri: "[config.ui.skin]texture/subhint_selected.png"
+	},
+	button_help_selected_over:{
+		uri: "[config.ui.skin]texture/subhint_selected.png"
+	},
+
+
 	// Close button
 	button_close_normal:{
 		uri: "[config.ui.skin]common/btn_close_normal.png"
@@ -255,6 +270,28 @@
 	button_close_disabled:{
 		uri: "[config.ui.skin]common/btn_close_disabled.png"
 	},
+
+	// Maximize button
+	button_maximize_normal:{
+		uri: "[config.ui.skin]common/btn_extend_normal.png"
+	},
+	button_maximize_over:{
+		uri: "[config.ui.skin]common/btn_extend_over.png"
+	},
+	button_maximize_pressed:{
+		uri: "[config.ui.skin]common/btn_extend_pressed.png"
+	},
+
+	// Minimize button
+	button_minimize_normal:{
+		uri: "[config.ui.skin]common/btn_reduce_normal.png"
+	},
+	button_minimize_over:{
+		uri: "[config.ui.skin]common/btn_reduce_over.png"
+	},
+	button_minimize_pressed:{
+		uri: "[config.ui.skin]common/btn_reduce_pressed.png"
+	},
 	
 	// Yellow button
 	button_yellow_square_normal:{
@@ -267,6 +304,21 @@
 	button_yellow_square_pressed:{
 		uri: "[config.ui.skin]common/btn_yellow_pressed.png"
 	},
+
+	// Yellow button less yellow
+	button_dark_yellow_square_normal:{
+		uri: "[config.ui.skin]common/btn_yellow2_normal.png",
+		scale9Grid:{x:24, y:25, width:9, height:4}
+	},
+	button_dark_yellow_square_over:{
+		uri: "[config.ui.skin]common/btn_yellow2_over.png"
+	},
+	button_dark_yellow_square_pressed:{
+		uri: "[config.ui.skin]common/btn_yellow2_pressed.png"
+	},
+    button_dark_yellow_square_disabled:{
+        uri: "[config.ui.skin]common/btn_yellow2_disabled.png"
+    },
 	
 	// Scrollbar cursor button
 	button_tiny_normal:{
@@ -330,13 +382,16 @@
 	
 	// Button with transparent background
 	btn_transparent_normal:{
-		uri: "[config.ui.skin]common/btn_transparent_normal.png"
+		uri: "[config.ui.skin]common/btn_transparent_normal.png",
+        scale9Grid:{}
 	},
 	btn_transparent_over:{
-		uri: "[config.ui.skin]common/btn_transparent_over.png"
+		uri: "[config.ui.skin]common/btn_transparent_over.png",
+        scale9Grid:{}
 	},
 	btn_transparent_pressed:{
-		uri: "[config.ui.skin]common/btn_transparent_pressed.png"
+		uri: "[config.ui.skin]common/btn_transparent_pressed.png",
+        scale9Grid:{}
 	},
 	
 		// help button
@@ -496,6 +551,20 @@
 	btn_arrow_turn_disabled:{
 		uri: "[config.ui.skin]common/btn_arrow_turn_character_disabled.png"
 	},
+
+	btn_arrow_turn_outside_normal:{
+		uri: "[config.ui.skin]common/btn_arrow_turn_outside_normal.png"
+	},
+	btn_arrow_turn_outside_over:{
+		uri: "[config.ui.skin]common/btn_arrow_turn_outside_over.png"
+	},
+	btn_arrow_turn_outside_pressed:{
+		uri: "[config.ui.skin]common/btn_arrow_turn_outside_pressed.png"
+	},
+	btn_arrow_turn_outside_disabled:{
+		uri: "[config.ui.skin]common/btn_arrow_turn_outside_disabled.png"
+	},
+
     button_magnifier:{
         uri: "[config.ui.skin]texture/btnIcon/btnIcon_magnifierSearch.png",
         scale9Grid:{}
@@ -553,5 +622,75 @@
 	tab_small_grey_selected_pressed:{
 		uri: "[config.ui.skin]common/tab_small_selectedPressed.png",
 		scale9Grid:{}
-	}
+	},
+
+	//button type encyclopedia
+	btn_type_encyclopedia_normal:
+	{
+		uri:"[config.ui.skin]common/slot_inventory_normal.png"
+	},
+	btn_type_encyclopedia_over:
+	{
+		uri:"[config.ui.skin]common/slot_inventory_over.png"
+	},
+	btn_type_encyclopedia_selected:
+	{
+		uri:"[config.ui.skin]common/slot_inventory_over.png"
+	},
+	btn_type_encyclopedia_selected:
+	{
+		uri:"[config.ui.skin]common/slot_inventory_selected.png"
+	},
+	btn_type_encyclopedia_selected_over:
+	{
+		uri:"[config.ui.skin]common/slot_inventory_selected.png"
+	},
+	btn_type_encyclopedia_selected_pressed:
+	{
+		uri:"[config.ui.skin]common/slot_inventory_selected.png"
+	},
+
+	//button info
+	btn_info_normal:
+	{
+		uri:"[config.ui.skin]texture/help_icon_normal.png"
+	},
+	btn_info_over:
+	{
+		uri:"[config.ui.skin]texture/help_icon_over.png"
+	},
+	btn_info_selected:
+	{
+		uri:"[config.ui.skin]texture/help_icon_over.png"
+	},
+	btn_info_selected:
+	{
+		uri:"[config.ui.skin]texture/help_icon_selected.png"
+	},
+	btn_info_selected_over:
+	{
+		uri:"[config.ui.skin]texture/help_icon_selected.png"
+	},
+	btn_info_selected_pressed:
+	{
+		uri:"[config.ui.skin]texture/help_icon_pressed.png"
+	},
+	btn_info_selected_disabled:
+	{
+		uri:"[config.ui.skin]texture/help_icon_disabled.png"
+	},
+	btn_info_disabled:
+	{
+		uri:"[config.ui.skin]texture/help_icon_disabled.png"
+	},
+
+
+    button_green_border_normal:{
+        uri: "[config.ui.skin]common/green_border_slot_normal.png",
+        scale9Grid:{x:15, y:15, width:34, height:34}
+    },
+    button_green_border_over:{
+        uri: "[config.ui.skin]common/green_border_slot_over.png",
+        scale9Grid:{x:15, y:15, width:34, height:34}
+    }
 }

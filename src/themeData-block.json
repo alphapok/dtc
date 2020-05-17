@@ -33,18 +33,18 @@
 	
 	block_border_scratch:{
 		uri: "[config.ui.skin]common/block_border_scratch.png",
-		scale9Grid:{}
+		scale9Grid:{x:25, y:17, width:100, height:101}
 	},
 	
 	block_border_scratch_dark:{
 		uri: "[config.ui.skin]common/block_border_scratch.png",
-		scale9Grid:{},
+		scale9Grid:{x:25, y:17, width:100, height:101},
 		colorTransform:{ redMultiplier:0.6,	greenMultiplier:0.6,	blueMultiplier:0.6   }
 	},
 	
 	block_border_double:{
 		uri: "[config.ui.skin]common/block_border_double.png",
-		scale9Grid:{}
+		scale9Grid:{x:30, y:30, width:490, height:380}
 	},
 	
 	block_background_double:{
