@@ -1,8 +1,8 @@
 <theme>
-    <name>DofusThemeC</name>
+    <name>dtc</name>
     <skinType>1</skinType>
-    <description>For chasse</description>
-    <previewUri>./dofusthemec.jpg</previewUri>
+    <description>Chasse</description>
+    <previewUri></previewUri>
 	<author>AlphaPok</author>
 	<version>1.0.0</version>
     <dofusVersion>2.55</dofusVersion>
