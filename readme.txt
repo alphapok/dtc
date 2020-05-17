@@ -1,2 +1,0 @@
-Vous avez envie de créer votre propre thème d'interface ? Demandez l'accès à la beta par email en précisant le pseudo de votre compte via dofusbetaskin@ankama.com
-You wish to create your own UI skin ? Ask an access to the beta by emailing dofusbetaskin@ankama.com and specify your account nickname.
