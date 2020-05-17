@@ -1,0 +1,11 @@
+<theme>
+    <name>DofusThemeC</name>
+    <skinType>1</skinType>
+    <description>For chasse</description>
+    <previewUri>./dofusthemec.jpg</previewUri>
+	<author>AlphaPok</author>
+	<version>1.0.0</version>
+    <dofusVersion>2.55</dofusVersion>
+    <creationDate>17/05/2017</creationDate>
+    <modificationDate>17/05/2020</modificationDate>
+</theme>
